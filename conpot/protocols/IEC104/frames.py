@@ -253,7 +253,7 @@ class IOA(Packet):
 class QOS(Packet):
     #  Quality of set-point command
     name = "QOS"
-    fields_desc = [XBitField("S/E", 0, 1), XBitField("QL", 0, 7)]
+    fields_desc = [XBitField("SE", 0, 1), XBitField("QL", 0, 7)]
 
 
 class QDS(Packet):
