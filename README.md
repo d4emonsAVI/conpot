@@ -15,3 +15,12 @@ The documentation can be found [here](https://conpot.readthedocs.io/). If you ar
 
 If you want to tinker around and write your own template, change ports etc. We suggest that you do host install.
 You can find instructions on how to install conpot [here](https://conpot.readthedocs.io/en/latest/installation/install.html) and the FAQ [here](https://conpot.readthedocs.io/en/latest/faq.html).
+
+
+## How to use
+
+You can run conpot with the default testing configuration:
+$ conpot -f
+
+Choose from one of the available templates to run. The default template for example:
+$ conpot -f --template default
