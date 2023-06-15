@@ -17,6 +17,16 @@ If you want to tinker around and write your own template, change ports etc. We s
 You can find instructions on how to install conpot [here](https://conpot.readthedocs.io/en/latest/installation/install.html) and the FAQ [here](https://conpot.readthedocs.io/en/latest/faq.html).
 
 
+## How to install
+
+$ sudo apt-get install git libsmi2ldbl smistrip libxslt1-dev python3.6-dev libevent-dev default-libmysqlclient-dev
+$ virtualenv --python=python3.6 conpot
+$ source conpot/bin/activate
+$ git clone https://github.com/d4emonsAVI/conpot.git && cd conpot
+$ pip install -r requirements.txt
+$ python setup.py install
+
+
 ## How to use
 
 You can run conpot with the default testing configuration:
