@@ -21,7 +21,7 @@ You can find instructions on how to install conpot [here](https://conpot.readthe
 
 $ sudo apt-get install git libsmi2ldbl smistrip libxslt1-dev python3.6-dev libevent-dev default-libmysqlclient-dev
 $ virtualenv --python=python3.6 conpotvenv
-$ source conpot/bin/activate
+$ source conpotvenv/bin/activate
 $ git clone https://github.com/d4emonsAVI/conpot.git && cd conpot
 $ pip install -r requirements.txt
 $ python setup.py install
