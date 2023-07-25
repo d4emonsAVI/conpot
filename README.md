@@ -19,23 +19,23 @@ You can find instructions on how to install conpot [here](https://conpot.readthe
 
 ## How to install
 
-$ sudo apt-get install git libsmi2ldbl smistrip libxslt1-dev python3.6-dev libevent-dev default-libmysqlclient-dev
+`$ sudo apt-get install git libsmi2ldbl smistrip libxslt1-dev python3.6-dev libevent-dev default-libmysqlclient-dev`
 
-$ virtualenv --python=python3.6 conpotvenv
+`$ virtualenv --python=python3.6 conpotvenv`
 
-$ source conpotvenv/bin/activate
+`$ source conpotvenv/bin/activate`
 
-$ git clone https://github.com/d4emonsAVI/conpot.git && cd conpot
+`$ git clone https://github.com/d4emonsAVI/conpot.git && cd conpot`
 
-$ pip install -r requirements.txt
+`$ pip install -r requirements.txt`
 
-$ python setup.py install
+`$ python setup.py install`
 
 
 ## How to use
 
 You can run conpot with the default testing configuration:
-$ conpot -f
+`$ conpot -f`
 
 Choose from one of the available templates to run. The default template for example:
-$ conpot -f --template default
+`$ conpot -f --template default`
